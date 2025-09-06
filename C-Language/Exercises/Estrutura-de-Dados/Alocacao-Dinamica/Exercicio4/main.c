@@ -51,7 +51,7 @@ int numberInsertion(){
      int value = 1;
      printf("\nForneca os numeros que quiser: (0 -> Finalizar programa)\n");
      while(value){
-          if(loopSize == vetSize - 1){
+          if(loopSize == vetSize){
                printf("--Expandindo vetor (+%d)--", VEC_TAM);
                int *newVet = vecExpansion(vetSize);
                vetSize = vetSize + VEC_TAM;
